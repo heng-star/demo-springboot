@@ -1,0 +1,12 @@
+#yaml:需要导入yaml插件
+
+#server:
+#    port: 8081
+#    path: /hello
+#doginfo:
+#  name: huahua
+#  age: 6
+---
+---
+
+
