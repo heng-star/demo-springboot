@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    username: root
+    password:
+    url: jdbc:mysql://127.0.0.1:3306/springjpa?useSSL=false&useUnicode=true&characterEncoding=UTF8
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
