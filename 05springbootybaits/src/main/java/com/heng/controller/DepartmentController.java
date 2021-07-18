@@ -27,4 +27,11 @@ public class DepartmentController {
         return department;
     }
 
+    @GetMapping("/department/{id}")
+    public Department getdeDartmentByIdWithXML(@PathVariable ("id") Integer id){
+        Department dp=departmentMapper.selectDepartmentByIdWithXml(id);
+        //System.out.println(dp.getId()+"__"+dp.getDepartmentName());
+        return dp;
+    }
+
 }

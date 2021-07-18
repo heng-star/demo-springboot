@@ -13,3 +13,6 @@ spring:
  thymeleaf:
    check-template-location: false
 #spring.thymeleaf.check-template-location=false
+mybatis:
+  mapper-locations: classpath:sql/*.xml
+  config-location: classpath:config/mybatis-config.xml
