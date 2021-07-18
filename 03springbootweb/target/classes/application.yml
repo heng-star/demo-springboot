@@ -1,0 +1,15 @@
+spring:
+ datasource:
+  username: root
+  password:
+  url: jdbc:mysql://127.0.0.1:3306/demospringboot?useSSL=false&useUnicode=true&characterEncoding=UTF8
+  driver-class-name: com.mysql.cj.jdbc.Driver
+  druid:
+    db-type: com.alibaba.druid.pool.DruidDataSource
+ sql:
+   init:
+     schema-locations: classpath:/sql/department.sql
+     mode: always
+ thymeleaf:
+   check-template-location: false
+#spring.thymeleaf.check-template-location=false

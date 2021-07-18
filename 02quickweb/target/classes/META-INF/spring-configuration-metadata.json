@@ -1,0 +1,23 @@
+{
+  "groups": [
+    {
+      "name": "dog1",
+      "type": "com.heng.entity.Dog",
+      "sourceType": "com.heng.entity.Dog"
+    }
+  ],
+  "properties": [
+    {
+      "name": "dog1.age",
+      "type": "java.lang.Integer",
+      "sourceType": "com.heng.entity.Dog",
+      "defaultValue": 0
+    },
+    {
+      "name": "dog1.name",
+      "type": "java.lang.String",
+      "sourceType": "com.heng.entity.Dog"
+    }
+  ],
+  "hints": []
+}

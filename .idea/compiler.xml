@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="01helloword" />
+        <module name="02quickweb" />
+        <module name="04springbootweb" />
+        <module name="demo-springboot" />
+      </profile>
+      <profile name="Annotation profile for 03springbootweb" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="03springbootweb" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="01helloword" target="1.8" />
+      <module name="01helloword (1)" target="1.8" />
+      <module name="02quickweb" target="1.8" />
+      <module name="02quickweb (1) (com.heng.springboot)" target="1.8" />
+      <module name="02quickweb (2) (com.heng)" target="1.8" />
+      <module name="03springbootweb" target="1.8" />
+      <module name="04springbootweb" target="1.8" />
+      <module name="demo-springboot" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="03springbootweb" options="-parameters" />
+      <module name="04springbootweb" options="-parameters" />
+      <module name="demo-springboot" options="-parameters" />
+    </option>
+  </component>
+</project>

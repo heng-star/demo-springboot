@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<title>Signin Template for Bootstrap</title>
+		<!-- Bootstrap core CSS -->
+		<!--th:href="/webjars/bootstrap/4.0.0/css/bootstrap.min.css"-->
+		<link href="../static/asserts/css/bootstrap.min.css"  rel="stylesheet">
+		<!-- Custom styles for this template -->
+		<link href="../static/asserts/css/signin.css" rel="stylesheet">
+	</head>
+
+	<body class="text-center">
+
+	<div>
+		<form class="form-signin" action="dashboard.html" th:action="@{/user/login}" method="get">
+			<img class="mb-4" src="../static/asserts/img/bootstrap-solid.svg" alt="" width="72" height="72">
+			<h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
+			<label class="sr-only">Username</label>
+			<input type="text" class="form-control" name=" username"  autofocus="">
+			<label class="sr-only">Password</label>
+			<input type="password" class="form-control" name="password" placeholder="
+			Password" required="">
+			<div class="checkbox mb-3">
+				<label>
+          <input type="checkbox" value="remember-me"> Remember me
+        </label>
+			</div>
+			<button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+			<p class="mt-5 mb-3 text-muted">© 2017-2018</p>
+			<a class="btn btn-sm">中文</a>
+			<a class="btn btn-sm">English</a>
+		</form>
+	</div>
+	<br>
+	 <div>
+		 lingyige
+	 </div>
+	<br>
+
+	<div>
+		<form th:action="@{/user/login}" method="get">
+			<h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
+
+			<label >Username</label>
+			<input type="text" name=" username2"  >
+
+			<label class="sr-only">Password</label>
+			<input type="password"  name="password2" >
+
+			<button  type="submit">Sign in</button>
+			<p class="mt-5 mb-3 text-muted">© 2017-2018</p>
+			<a class="btn btn-sm">中文</a>
+			<a class="btn btn-sm">English</a>
+		</form>
+	</div>
+
+
+
+	</body>
+
+</html>
