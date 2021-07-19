@@ -8,14 +8,11 @@
         <outputRelativeToContentRoot value="true" />
         <module name="01helloword" />
         <module name="02quickweb" />
-        <module name="04springbootweb" />
-        <module name="demo-springboot" />
-      </profile>
-      <profile name="Annotation profile for 03springbootweb" enabled="true">
-        <sourceOutputDir name="../target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
         <module name="03springbootweb" />
+        <module name="04springbootweb" />
+        <module name="05springbootybaits" />
+        <module name="06springbootjpa" />
+        <module name="demo-springboot" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
@@ -26,6 +23,8 @@
       <module name="02quickweb (2) (com.heng)" target="1.8" />
       <module name="03springbootweb" target="1.8" />
       <module name="04springbootweb" target="1.8" />
+      <module name="05springbootybaits" target="1.8" />
+      <module name="06springbootjpa" target="1.8" />
       <module name="demo-springboot" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -33,6 +32,8 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="03springbootweb" options="-parameters" />
       <module name="04springbootweb" options="-parameters" />
+      <module name="05springbootybaits" options="-parameters" />
+      <module name="06springbootjpa" options="-parameters" />
       <module name="demo-springboot" options="-parameters" />
     </option>
   </component>
